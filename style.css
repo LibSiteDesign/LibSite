@@ -1,0 +1,191 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p>@charset &quot;UTF-8&quot;;<br />
+/* CSS Document */</p>
+
+<p>article, aside, figcaption, figure, footer, header, main, nav, section {<br />
+&nbsp; display: block;<br />
+}<br />
+h1,h2,h3,h4,h5,h6 {<br />
+&nbsp; font-family: Optima, sans-serif;<br />
+&nbsp; text-transform: uppercase;<br />
+}<br />
+ul {<br />
+&nbsp;&nbsp; &nbsp;list-style: none;<br />
+&nbsp;&nbsp; &nbsp;margin-left: 0;<br />
+&nbsp;&nbsp; &nbsp;padding: 0;<br />
+}<br />
+body {<br />
+&nbsp; margin: 0;<br />
+&nbsp; padding: 0;<br />
+&nbsp; font-family: &quot;Gil Sans Light&quot;, sans-serif;<br />
+}<br />
+header {<br />
+&nbsp; background-color: #990000;<br />
+&nbsp; text-align: center;<br />
+}<br />
+form {<br />
+&nbsp; text-align: right;<br />
+&nbsp; padding: 0.5em 0.25em 0em 0em;<br />
+}<br />
+label {<br />
+&nbsp; color: #FFFFFF;<br />
+}<br />
+h1 {<br />
+&nbsp; color: #FFFFFF;<br />
+&nbsp; margin: 0.5em;<br />
+}<br />
+nav {<br />
+&nbsp; text-align: center;<br />
+&nbsp; font-variant: small-caps;<br />
+&nbsp; padding: .5em 0 .5em 0;<br />
+&nbsp; width: 100%;<br />
+&nbsp;/* font-weight: bold; */<br />
+}</p>
+
+<p><br />
+@media all and (max-width: 780px){<br />
+&nbsp;&nbsp; &nbsp;.nav {<br />
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;font-size: 10px;<br />
+&nbsp;&nbsp; &nbsp;}<br />
+&nbsp;&nbsp; &nbsp;.sidebar {<br />
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;font-size: 12px;<br />
+&nbsp;&nbsp; &nbsp;}<br />
+}</p>
+
+<p>.nav {<br />
+&nbsp; display: inline-block;<br />
+&nbsp; padding: 0;<br />
+&nbsp; position: relative;<br />
+&nbsp; width: 19%;<br />
+&nbsp; z-index: 1000;<br />
+}<br />
+.nav a {<br />
+&nbsp;&nbsp; &nbsp;display: block;<br />
+&nbsp;&nbsp; &nbsp;width: 100%;<br />
+&nbsp;&nbsp; &nbsp;height: 100%;<br />
+&nbsp;&nbsp; &nbsp;text-align: center;<br />
+}<br />
+.subnav {<br />
+&nbsp;&nbsp; &nbsp;display: block;<br />
+}<br />
+.nav .subnav {<br />
+&nbsp;&nbsp; &nbsp;padding: 0.5em 0.25em 0.5em 0.25em;<br />
+}<br />
+.nav .subnav-list {<br />
+&nbsp;&nbsp; &nbsp;background-color: white;<br />
+&nbsp;&nbsp; &nbsp;border: 1px solid #990000;<br />
+&nbsp;&nbsp; &nbsp;display: none;<br />
+&nbsp;&nbsp; &nbsp;position: absolute;<br />
+&nbsp;&nbsp; &nbsp;padding: 0;<br />
+&nbsp;&nbsp; &nbsp;top: 100%;<br />
+&nbsp;&nbsp; &nbsp;left: 0;<br />
+&nbsp;&nbsp; &nbsp;width: 100%;<br />
+}<br />
+.nav:hover .subnav-list {<br />
+&nbsp;&nbsp; &nbsp;display: block;<br />
+}<br />
+article {<br />
+&nbsp;&nbsp; &nbsp;float: left;<br />
+&nbsp;&nbsp; &nbsp;width: 70%;<br />
+}<br />
+h1,h2,h3,h4,h5,h6 {<br />
+&nbsp;&nbsp; &nbsp;padding: 0 0.25em 0 0.25em;<br />
+}<br />
+article {<br />
+&nbsp;&nbsp; &nbsp;padding: 2em 0.25em 0em 0.25em;<br />
+}<br />
+article p {<br />
+&nbsp;&nbsp; &nbsp;padding: 0 0.5em 0 0.5em;<br />
+}<br />
+.sidebar {<br />
+&nbsp; color: #FFFFFF;<br />
+&nbsp; background-color: #cccccc;<br />
+&nbsp; text-align: center;<br />
+&nbsp; float: right;<br />
+&nbsp; padding: 1em 0 1em 0;<br />
+&nbsp; width: 25%;<br />
+}<br />
+.footer {<br />
+&nbsp; background-color: #cccccc;<br />
+&nbsp; width: 100%;<br />
+&nbsp; clear: left;<br />
+}<br />
+footer p {<br />
+&nbsp; text-align: left;<br />
+&nbsp; margin: 0;<br />
+&nbsp; padding: 0 0 0.5em 0.5em;<br />
+}<br />
+footer ul {<br />
+&nbsp; text-align: right;<br />
+}<br />
+footer li {<br />
+&nbsp; display: inline;<br />
+}<br />
+.social {<br />
+&nbsp;&nbsp; &nbsp;padding: 0 .5em 0 0;<br />
+&nbsp;&nbsp; &nbsp;margin: 0;<br />
+}<br />
+.social-icons {<br />
+&nbsp;&nbsp; &nbsp;padding: 0 .5em 0 0;<br />
+}<br />
+.publications {<br />
+&nbsp;&nbsp; &nbsp;width: 50%;<br />
+&nbsp;&nbsp; &nbsp;height: auto;<br />
+}<br />
+.pub-heading {<br />
+&nbsp;&nbsp; &nbsp;text-align: center;<br />
+}<br />
+a {<br />
+&nbsp; cursor: pointer;<br />
+}<br />
+h1 a:link {<br />
+&nbsp;&nbsp; &nbsp;color: #FFF;<br />
+&nbsp;&nbsp; &nbsp;text-decoration: none;<br />
+}<br />
+a:link {<br />
+&nbsp; color: #000000;<br />
+&nbsp; text-decoration: underline;<br />
+}<br />
+nav a:link {<br />
+&nbsp; text-decoration: none;<br />
+}<br />
+a:visited {<br />
+&nbsp; color: #000000;<br />
+}<br />
+nav a:visited {<br />
+&nbsp;&nbsp; &nbsp;color: #000000;<br />
+}<br />
+h1 a:visited {<br />
+&nbsp;&nbsp; &nbsp;color: #FFF;<br />
+&nbsp;&nbsp; &nbsp;text-decoration: none;<br />
+}<br />
+a:focus {<br />
+&nbsp; color: #0000FF;<br />
+}<br />
+h1 a:focus {<br />
+&nbsp;&nbsp; &nbsp;color: #FFF;<br />
+&nbsp;&nbsp; &nbsp;text-decoration: none;<br />
+}<br />
+a:hover {<br />
+&nbsp; color: #0000FF;<br />
+}<br />
+h1 a:hover {<br />
+&nbsp;&nbsp; &nbsp;color: #FFF;<br />
+&nbsp;&nbsp; &nbsp;text-decoration: none;<br />
+}<br />
+nav a:hover {<br />
+&nbsp;&nbsp; &nbsp;color: #0000FF;<br />
+}<br />
+a:active {<br />
+&nbsp; color: #000080;<br />
+}<br />
+h1 a:active {<br />
+&nbsp;&nbsp; &nbsp;color: #FFF;<br />
+&nbsp;&nbsp; &nbsp;text-decoration: none;<br />
+}</p>
+</body>
+</html>

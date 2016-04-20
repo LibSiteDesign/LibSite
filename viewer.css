@@ -1,0 +1,89 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p>@charset &quot;UTF-8&quot;;<br />
+/* CSS Document */</p>
+
+<p>* {<br />
+&nbsp;&nbsp; &nbsp;/* margin: 0;<br />
+&nbsp;&nbsp; &nbsp;padding: 0;<br />
+&nbsp;&nbsp; &nbsp;outline: none;<br />
+&nbsp;&nbsp; &nbsp;border: none; */<br />
+&nbsp;&nbsp; &nbsp;box-sizing: border-box;<br />
+}</p>
+
+<p>.viewer {<br />
+&nbsp;&nbsp; &nbsp;width: 100%;<br />
+&nbsp;&nbsp; &nbsp;height: 500px;<br />
+&nbsp;&nbsp; &nbsp;position: relative;<br />
+&nbsp;&nbsp; &nbsp;overflow: hidden;<br />
+&nbsp;&nbsp; &nbsp;margin: 0 0 2em 0;<br />
+}<br />
+.picture {<br />
+&nbsp;&nbsp; &nbsp;width: 100%;<br />
+&nbsp;&nbsp; &nbsp;height: 100%;<br />
+&nbsp;&nbsp; &nbsp;left: 0%;<br />
+&nbsp;&nbsp; &nbsp;position: absolute;<br />
+}</p>
+
+<p>.picture.transition {<br />
+&nbsp;&nbsp; &nbsp;transition: left 1s linear;<br />
+}</p>
+
+<p>.image {<br />
+&nbsp;&nbsp; &nbsp;height: 100%;<br />
+&nbsp;&nbsp; &nbsp;width: 100%;</p>
+
+<p>&nbsp;&nbsp; &nbsp;background-size: 117% 200%;<br />
+}</p>
+
+<p>.picture-1 .image {<br />
+&nbsp;&nbsp; &nbsp;background: transparent url(&quot;../img/mississippi_territory-web.jpg&quot;) no-repeat scroll 50% 31%;<br />
+}</p>
+
+<p>.picture-2 .image {<br />
+&nbsp;&nbsp; &nbsp;background: transparent url(&quot;../img/before1750-web.jpg&quot;) no-repeat scroll 50% 31%;<br />
+}</p>
+
+<p>.picture-3 .image {<br />
+&nbsp;&nbsp; &nbsp;background: transparent url(&quot;../img/usa-web.jpg&quot;) no-repeat scroll 50% 31%;<br />
+}</p>
+
+<p>.picture-4 .image {<br />
+&nbsp;&nbsp; &nbsp;background: transparent url(&quot;../img/coastal-eco-web.jpg&quot;) no-repeat scroll 50% 31%;<br />
+}</p>
+
+<p>.caption {<br />
+&nbsp;&nbsp; &nbsp;background-color: rgba(255, 255, 255, .75);<br />
+&nbsp;&nbsp; &nbsp;bottom: 0;<br />
+&nbsp;&nbsp; &nbsp;color: black;<br />
+&nbsp;&nbsp; &nbsp;padding: 25px;<br />
+&nbsp;&nbsp; &nbsp;position: absolute;<br />
+&nbsp;&nbsp; &nbsp;width: 100%;<br />
+}</p>
+
+<p>.picture.right {<br />
+&nbsp;&nbsp; &nbsp;left: 100%;<br />
+}</p>
+
+<p>.picture.left {<br />
+&nbsp;&nbsp; &nbsp;left: -100%;<br />
+}</p>
+
+<p>.arrow {<br />
+&nbsp;&nbsp; &nbsp;cursor: pointer;<br />
+&nbsp;&nbsp; &nbsp;position: absolute;<br />
+&nbsp;&nbsp; &nbsp;top: 50%;<br />
+}</p>
+
+<p>.arrow.right {<br />
+&nbsp;&nbsp; &nbsp;right: 0;<br />
+}</p>
+
+<p>.arrow.left {<br />
+&nbsp;&nbsp; &nbsp;left: 0;<br />
+}</p>
+</body>
+</html>
